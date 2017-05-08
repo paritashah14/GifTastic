@@ -97,11 +97,11 @@ $("#add-button").click(function() {
     event.preventDefault();
     
     // This line of code will grab the input from the textbox
-    var gifInput = $("#gif-input").val().trim();
+    var input = $("#input").val().trim();
     // The input is added to the original array
     food.push(gifInput);
     // clears the input fields value
-    $("#gif-input").val("");
+    $("#input").val("");
     
     // calls the render buttons function
     renderButtons();
